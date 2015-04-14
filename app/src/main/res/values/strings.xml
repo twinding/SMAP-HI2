@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HI2-22</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="on_create">Android: onCreate event</string>
+    <string name="on_resume">Android: onResume event</string>
+    <string name="on_start">Android: onStart event</string>
+    <string name="on_pause">Android: onPause event</string>
+    <string name="on_stop">Android: onStop event</string>
+    <string name="on_destroy">Android: onDestroy event</string>
+</resources>
