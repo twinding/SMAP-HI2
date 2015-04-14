@@ -36,7 +36,7 @@ public class MainActivity extends Activity {
         super.onStart();
         Log.d(LOG_TAG, getString(R.string.on_start));
 
-        Toast.makeText(this, "onCreate()", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onStart()", Toast.LENGTH_SHORT).show();
     }
 
     @Override
