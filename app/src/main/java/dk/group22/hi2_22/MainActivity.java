@@ -23,9 +23,6 @@ public class MainActivity extends Activity {
 
         Log.d(LOG_TAG, getString(R.string.on_create));
 
-        /*TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText("You are running Android " + Build.VERSION.SDK_INT);*/
-
         Toast.makeText(this, "onCreate()", Toast.LENGTH_SHORT).show();
 
         if (Build.VERSION.SDK_INT == 8) Toast.makeText(this, "Please, buy a new phone", Toast.LENGTH_SHORT).show();
